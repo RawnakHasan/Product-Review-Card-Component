@@ -18,3 +18,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+@media (width < 634) {
+  .main {
+    @apply grid-rows-2;
+  }
+}
